@@ -1,2 +1,0 @@
-# myprojects
-my initial projects
