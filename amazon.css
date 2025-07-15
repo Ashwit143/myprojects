@@ -1,0 +1,292 @@
+*{
+    margin : 0;
+    padding : 0;
+    font-family : Arial, Helvetica, sans-serif;
+    border : border-box;
+}
+.navbar{
+    background-color: #0f1111;
+    height : 60px;
+    color : white;
+    display : flex;
+    align-items: center;
+}
+.nav_logo{
+    height :50px;
+    width : 130px;
+}
+.logo{
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height :50px;
+    width : 100px;
+    margin : 1px;
+    padding : 1px 2px 0px 6px;
+}
+.border{
+    border : 1.5px solid transparent;
+}
+.border:hover{
+    border : 1.5px solid white;
+}
+.deliver{
+    display : flex;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 10px;
+    border : 1.5px solid transparent;
+}
+.deliver:hover{
+    border : 1.5px solid white;
+}
+.deliverto{
+    width : 53px;
+    height : 14px;
+    color : #cccccc;
+    font-size : 12px;
+    margin-left: 40px;
+}
+.India{
+    width : 53px;
+    height : 16px;
+    color : white;
+    font-size: 14px;
+    padding : 0px 0px 1px;
+    margin-left : 20px;
+}
+.ash{
+    display: flex;
+    margin-left : 10px;
+}
+#All{
+    margin-left : 40px;
+    height : 35px;
+    width : 55px;
+    background-color: rgba(230, 225, 225, 0.842);
+    color : black;
+}
+input{
+    height : 35px;
+    width : 650px;
+    padding : 7px 10px 10px 0px;
+}
+#search{
+    height : 35px;
+    width : 45px;
+    background-color:#f08804 ;
+    display : flex;
+    align-items:center;
+    justify-content: center;
+}
+#lang{
+    background-color: transparent;
+    color : grey;
+    margin-left: 40px;
+    height : 30px;
+    width : 75px;
+}
+.lang:hover{
+    background-color: #383d3de7;
+}
+.account{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    border : 1.5px solid transparent;
+    padding : 4px;
+}
+.account:hover{
+    border : 1.5px solid white;
+}
+.signin{
+    font-size : 12px;
+}
+.list{
+    font-size : 14px;
+    font-weight: bolder;
+}
+.return{
+    display: flex;
+    flex-direction: column;
+    margin-left: 35px;
+    border : 1.5px solid transparent;
+    padding : 4px;
+}
+.return:hover{
+    border : 1.5px solid white;
+}
+.returns{
+    font-size : 12px;
+}
+.orders{
+    font-size: 14px;
+}
+.shop{
+    height : 39px;
+    width : 100px;
+    border : 1.5px solid transparent;
+    display: flex;
+
+}
+.shop:hover{
+    border : 1.5px solid white;
+}
+#cart{
+    margin-left: 35px;
+    height : 30px;
+}
+.cart{
+    font-size: 14px;
+}
+.tool{
+    background-color: #323535;
+    height : 39px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+}
+.menu{
+    color : white;
+    margin : 10px;
+}
+
+.nav_a{
+    height : 28px;
+    width : 100px;
+    border : 1.5px solid transparent;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    justify-content: center;
+}
+.nav_a:hover{
+    border : 1.5px solid white;
+}
+.reg{
+    height : 28px;
+    width : 85px;
+    border :1.5px solid transparent;
+    display: flex;
+    align-items: center;
+}
+.reg:hover{
+    border : 1.5px solid white;
+}
+.prime{
+    height : 28px;
+    width : 100px;
+    border: 1.5px solid transparent;
+    display: flex;
+    align-items: center;
+}
+
+
+.prime:hover{
+    border : 1.5px solid white;
+}
+.gift{
+    height: 28px;
+    width : 100px;
+    border : 1.5px solid transparent;
+    display: flex;
+    align-items: center;
+}
+.gift:hover{
+    border : 1.5px solid white;
+}
+a{
+    color : white;
+    text-decoration: none;
+}
+.customer{
+    height : 28px;
+    width : 125px;
+    border : 1.5px solid transparent;
+    display : flex;
+    align-items: center;
+}
+.customer:hover{
+    border : 1.5px solid white;
+}
+.sell{
+    height: 28px;
+    width : 50px;
+    border : 1.5px solid transparent;
+    display: flex;
+    align-items: center;
+}
+.sell:hover{
+    border : 1.5px solid white;
+}
+.hero{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    height : 600px;
+}
+.box{
+    height : 420px;
+    width : 23%;
+    background-color: white;
+    margin : 10px;
+    
+}
+.back{
+    background-color: rgb(255, 220, 190);
+  display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.image1{
+    background-image: url("box1_image.jpg");
+    background-size: cover;
+    height : 350px;
+    width : 350px;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.border{
+    height: 200px;
+    padding : 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.button{
+    height: 30px;
+    width : 200px;
+    background-color:rgb(245, 229, 5);
+    color : black;
+    border-radius: 10px;
+    margin-bottom : 10px; 
+}
+#pr{
+    margin-bottom: 10px;
+    font-weight: 800;
+}
+.footer{
+    height :50px;
+}
+.btt{
+    background-color: #232f2e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    padding : 15px;
+}
+.end{
+    height : 450px;
+    background-color:#212c2b ;
+    display: flex;
+    justify-content: space-evenly;
+}
+.kanak{
+    display : flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.language{
+    background-color: transparent;
+}

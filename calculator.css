@@ -1,0 +1,102 @@
+*{
+    padding : 0;
+    margin : 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.main{
+    height : 70vh;
+    width : 30vw;
+    border : 2px solid grey;
+    border-radius: 1rem;
+    background-color: #f5ebe0;
+}
+.functions{
+    display: flex;
+    justify-content: space-around;
+    padding : 0.8rem;
+}
+.clear{
+    height : 10vmin;
+    width : 10vmin;
+    border-radius : 50%;
+    background-color: #d5bdaf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size : 2rem;
+}
+.percentage{
+    height : 10vmin;
+    width : 10vmin;
+    border-radius : 50%;
+    background-color: #d5bdaf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size : 2rem;
+}
+.delete{
+    height : 10vmin;
+    width : 10vmin;
+    border-radius : 50%;
+    background-color: #d5bdaf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size : 2rem;
+}
+.divide{
+    height : 10vmin;
+    width : 10vmin;
+    border-radius : 50%;
+    background-color: #d5bdaf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size : 2rem;
+}
+.numbers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.button{
+    height : 10vmin;
+    width : 10vmin;
+    border-radius : 50%;
+    background-color: #d5bdaf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size : 2rem;
+    margin : 0.7rem;
+}
+.operation{
+    height : 10vmin;
+    width : 10vmin;
+    border-radius : 50%;
+    background-color: #d5bdaf;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size : 2rem;
+    margin : 0.7rem;
+}
+.screen{
+    height : 8vh;
+    width :  28vw;
+    border : 2px solid black;
+    margin-top : 10vh;
+    margin-bottom : 5vh;
+    border-radius: 1rem;
+    background-color: #edede9;
+    color : black;
+    padding : 1rem;
+    font-size: x-large;
+}
